@@ -1,0 +1,15 @@
+cat << 'EOF' > .gitignore
+# Virtual Environments
+.venv/
+vision_env/
+__pycache__/
+
+# Datasets and Weights
+dataset/
+runs/
+*.pt
+*.zip
+
+# OS generated files
+.DS_Store
+EOF
